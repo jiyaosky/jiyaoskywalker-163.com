@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/btn_event"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="click me..."
+        android:textAllCaps="false"
+        android:onClick="show"/>
+    <com.skypan.helloworld.widget.MyButton
+        android:id="@+id/btn_my"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="my button"
+        android:textAllCaps="false"/>
+    <Button
+        android:id="@+id/btn_handler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="handler"
+        android:textAllCaps="false"/>
+    <Button
+        android:id="@+id/btn_asynctask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AsyncTask"
+        android:textAllCaps="false"/>
+    <Button
+        android:id="@+id/btn_config"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Configuration"
+        android:textAllCaps="false"/>
+</LinearLayout>

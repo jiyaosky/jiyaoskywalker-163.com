@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.skypan.helloworld">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".broadcast.BroadActivity2"></activity>
+        <activity android:name=".broadcast.BroadActivity" />
+        <activity android:name=".datastorage.FileActivity" />
+        <activity android:name=".datastorage.SharePreferencesActivity" />
+        <activity android:name=".datastorage.DataStorageActivity" />
+        <activity android:name=".ConfigurationActivity" />
+        <activity android:name=".AsyncTaskActivity" />
+        <activity android:name=".HandlerActivity" />
+        <activity android:name=".EventActivity" />
+        <activity android:name=".PopupWindowActivity" />
+        <activity android:name=".CustomDialogActivity" />
+        <activity android:name=".ProgressActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".DialogActivity" />
+        <activity android:name=".ToastActivity" />
+        <activity android:name=".WebViewActivity" />
+        <activity android:name=".extras.Main2Activity" />
+        <activity android:name=".recyclerview.PuRecyclerViewActivity" />
+        <activity android:name=".recyclerview.GridRecyclerViewActivity" />
+        <activity android:name=".recyclerview.HorRecyclerViewActivity" />
+        <activity android:name=".recyclerview.LinearRecyclerViewActivity" />
+        <activity android:name=".recyclerview.RecyclerViewActivity" />
+        <activity android:name=".fragment.ContainerActivity" />
+        <activity
+            android:name=".jump.BActivity"
+            android:label="B">
+            <intent-filter>
+                <action android:name="com.skypan.test.BActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".jump.AActivity"
+            android:label="A" />
+        <activity android:name=".LifeCycleActivity" />
+        <activity android:name=".gridview.GridViewActivity" />
+        <activity android:name=".listview.ListViewActivity" />
+        <activity android:name=".ImageViewActivity" />
+        <activity android:name=".CheckBoxActivity" />
+        <activity android:name=".RadioButtonActivity" />
+        <activity android:name=".EditTextActivity" />
+        <activity android:name=".ButtonActivity" />
+        <activity android:name=".TextViewActivity" />
+        <activity android:name=".UIActivity" />
+    </application>
+
+</manifest>
